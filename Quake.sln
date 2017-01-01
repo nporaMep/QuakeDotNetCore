@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB4EA179-1612-4153-A454-FF448D34F6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73ED617D-DCB6-46AE-BFF0-EA5A4B5F589B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Quake", "src\Quake\Quake.xproj", "{D23576F2-6E59-43E8-82C7-3A6575717670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D23576F2-6E59-43E8-82C7-3A6575717670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23576F2-6E59-43E8-82C7-3A6575717670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23576F2-6E59-43E8-82C7-3A6575717670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23576F2-6E59-43E8-82C7-3A6575717670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D23576F2-6E59-43E8-82C7-3A6575717670} = {DB4EA179-1612-4153-A454-FF448D34F6FB}
+	EndGlobalSection
+EndGlobal
