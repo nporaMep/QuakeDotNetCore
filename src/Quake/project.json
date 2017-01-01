@@ -6,9 +6,13 @@
 
   "dependencies": {
     "Microsoft.NETCore.App": {
-      "type": "platform",
+      "type": "build",
       "version": "1.0.1"
     }
+  },
+  "runtimes": {
+    "win10-x86": {},
+    "win10-x64": {},
   },
 
   "frameworks": {
